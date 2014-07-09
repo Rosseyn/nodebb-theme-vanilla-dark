@@ -1,18 +1,19 @@
 {
-  "name": "nodebb-theme-vanilla",
-  "version": "0.0.83",
-  "description": "Vanilla theme for NodeBB",
+  "name": "nodebb-theme-vanilla-dark",
+  "version": "0.0.81",
+  "description": "Dark Vanilla theme for NodeBB",
   "main": "theme.less",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NodeBB/nodebb-theme-vanilla"
+    "url": "https://github.com/rosseyn/nodebb-theme-vanilla-dark"
   },
   "keywords": [
     "nodebb",
     "theme",
     "themes",
     "bootstrap",
-    "vanilla"
+    "vanilla",
+    "dark"
   ],
   "contributors": [
     {
@@ -29,10 +30,23 @@
       "name": "Barış Soner Uşaklı",
       "email": "baris@designcreateplay.com",
       "url": "https://github.com/barisusakli"
+    },
+    {
+      "name": "Justin Goffinet",
+      "email": "unsable@gmail.com",
+      "url": "https://github.com/rosseyn"
     }
   ],
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/NodeBB/nodebb-theme-vanilla/issues"
-  }
+    "url": "https://github.com/rosseyn/nodebb-theme-vanilla-dark/issues"
+  },
+  "readme": "nodebb-theme-vanilla-dark\r\n====================\r\n\r\nDark Vanilla theme for NodeBB based on Bootstrap. Perfect for starting your own NodeBB themes!\r\n",
+  "readmeFilename": "README.md",
+  "_id": "nodebb-theme-vanilla-dark@0.0.81",
+  "dist": {
+    "shasum": "41e38c0733e79604630b41bb253a469f492c59e8"
+  },
+  "_from": "nodebb-theme-vanilla-dark@~0.0.21",
+  "_resolved": "https://registry.npmjs.org/nodebb-theme-vanilla-dark/-/nodebb-theme-vanilla-dark-0.0.81.tgz"
 }

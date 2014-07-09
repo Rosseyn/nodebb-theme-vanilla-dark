@@ -1,30 +1,17 @@
 .chats-list {
+	margin-top: 1em;
 	padding: 0;
 
 	li {
 		clear: both;
 		list-style-type: none;
-		padding: 0.5em;
+		padding: 1em;
+		margin-bottom: 0.5em;
+		.zebra;
 		.pointer;
 
-		&.typing {
-			span:after {
-				visibility: visible;
-			}
-		}
-
-		&.unread {
-			.bg-variant(@state-warning-bg);
-		}
-
-		span {
-			&:after {
-				display: inline-block;
-				font-family: "FontAwesome";
-				content: "\f11c";
-				margin-left: 0.5em;
-				visibility: hidden;
-			}
+		&:last-child {
+			margin-bottom: 0;
 		}
 
 		a {
@@ -39,53 +26,6 @@
 		.user-img {
 			width:24px;
 			height:24px;
-			margin-left: 0.5em;
 		}
-	}
-}
-
-.expanded-chat, .chat-modal {
-	ul {
-		height: 250px;
-		overflow-y: auto;
-		resize: none;
-
-		li {
-			list-style-type: none;
-			margin-bottom: 10px;
-			font-weight: 300;
-
-			.chat-user-image {
-				width: 20px;
-				height: 20px;
-			}
-
-			.chat-timestamp {
-				color: darkgrey;
-				min-width: 60px;
-				display: inline-block;
-				text-align: right;
-				.user-select(none);
-			}
-
-			.message-body {
-				clear: both;
-			}
-
-			&[data-self="0"] + [data-self="0"], &[data-self="1"] + [data-self="1"] {
-				.message-header {
-					display: none;
-				}
-			}
-		}
-	}
-
-	.user-typing {
-		margin-top: -1.5em;
-		.opacity(0.5);
-	}
-
-	.modal-dialog {
-		margin: 0 auto;
 	}
 }
